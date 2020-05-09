@@ -1,19 +1,15 @@
-//1. Before you can make any part of your site work, you need to create an array of strings, each one related to a topic that interests you. Save it to a variable called `topics`.
-//   * We chose animals for our theme, but you can make a list to your own liking.
+
 var topics = ["mountains", "moons", "monsters"]
-    //2. Your app should take the topics in this array and create buttons in your HTML.
+    
 let buttonMaker = function() {
         for (let i = 0; i < topics.length, i++) {
-            $("<button>" {
+            $("<button>", {
                     text: topic[i],
                     id: "#Btn" + topic[i],
-                    click: //TBD
+                    //click: //TBD
                 }
-            }.append("#buttonZone")
-
-
-
-        }
+            ).append("#buttonZone");
+        }};
 
 
         //   * Try using a loop that appends a button for each string in the array.
